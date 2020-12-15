@@ -1,0 +1,44 @@
+
+.img-container{
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.img-column{
+    width: 45%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: -5px;
+    overflow: hidden;
+}
+
+img{
+    width: 600px;
+    height: auto;
+
+}
+
+.img-box{
+    width: 600px;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+@media all and (max-width: 30em) {
+    .img-box{
+        width: 410px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .img-container{
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .img-column{
+        width: 49%;
+    }
+}

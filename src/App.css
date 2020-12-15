@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+/* CSS Mini Reset */
+
+html,
+body,
+div,
+form,
+fieldset,
+legend,
+caption,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre
+{
+    font-size: 100%;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th,
+td
+{
+    text-align: left;
+    vertical-align: top;
+}
+
+img
+{
+    border: 0;
+}
+/* end of reset rules */
+
+body{
+  background-color: #eaac8b;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23e56b6f' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%236d597a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23dc6972' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23635779' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d36874' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23585578' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23c96775' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%234d5476' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23bf6676' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23415274' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23b56576' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23355070' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul
+{
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+h2, p, a{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+.navbar{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.link-item{
+  text-decoration: underline;
+  padding: 2px;
+}
+.body-container{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  padding-bottom: 20px;
+  background-color: none;
+
+}
